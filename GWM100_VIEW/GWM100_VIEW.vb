@@ -22,7 +22,7 @@ Public Class GWM100_VIEW
         g70.ShowColumnHeaders = False
         g70.AllowAddRows = True
 
-        If Comp_Type() = "HK" Then 'HK인경우 폼로드에도 숨김항목 처리해야한다. 21.03.17
+        If Comp_Type() = "HK" Then 'HK인경우 폼로드에도 숨김항목 처리해야한다. 21.03.17 테스트 변경
             btn_dmb100.Visible = False '파트리스트버튼
             btn_pms300_jump.Visible = False '유효성버튼
             btnClose.Visible = False
